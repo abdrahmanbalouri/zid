@@ -22,7 +22,7 @@ function deeCplone(obj) {
 const original = {
   name: "Alice",
   age: 25,
-  hobbies: ["reading", "gaming"],
+  hobbies: ["reading", "gaming",['jjjj']],
   address: {
     city: "Wonderland",
     zip: 12345,
@@ -34,7 +34,7 @@ console.log(cloned);
 
 
 cloned.name = "Bob";
- cloned.hobbies.push("chess");
+ cloned.hobbies[2].push("chess");
 cloned.address.city = "Nowhere";
 
 console.log(cloned);
