@@ -46,7 +46,7 @@ const objB = {
   hobbies: ["reading", "gaming"],
   address: {
     city: "Wonderland",
-    zip: 12388,
+    zip: 12345,
   },
 };
 
